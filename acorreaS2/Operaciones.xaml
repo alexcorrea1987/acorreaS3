@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="acorreaS2.Operaciones">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                
+                <Image Source="https://revista.uisrael.edu.ec/images/uisrael.png"/>
+                <Label Text="INICIO" FontSize="24" HorizontalTextAlignment="Center"/>
+                <Entry x:Name="txtNombre" Placeholder="Ingresa tu Nombre"/>
+                <Button x:Name="btnSaludo" Text="SALUDO" Clicked="btnSaludo_Clicked"/>
+                <Entry x:Name="txtDeber1" Placeholder="Ingresa Nota de Seguimiento 1" Keyboard="Numeric"/>
+                <Entry x:Name="txtExamen1" Placeholder="Ingresa Nota de Examen 1" Keyboard="Numeric"/>
+                <Entry x:Name="txtDeber2" Placeholder="Ingresa Nota de Seguimiento 2" Keyboard="Numeric"/>
+                <Entry x:Name="txtExamen2" Placeholder="Ingresa Nota de examen 2" Keyboard="Numeric"/>
+                <Entry x:Name="txtNotaParcial1" Placeholder="Nota Parcial 1" IsReadOnly="True"/>
+                <Entry x:Name="txtNotaParcial2" Placeholder="Nota Parcial 2" IsReadOnly="True"/>
+                <Entry x:Name="txtNotaFinal" Placeholder="Nota Final" IsReadOnly="True"/>                
+                <Entry x:Name="txtMensaje"/>
+                <!--para comentar en xaml se debe marcar la fila completa y presionar ctrl + k + c-->
+                <!--Para uso de datos numericos-->
+                <Button x:Name="btnCalcular" Text="CALCULAR" Clicked="btnCalcular_Clicked"/>
+                <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked"/>
+                <Button x:Name="btnEvaluar" Text="Evaluar"  Clicked="btnEvaluar_Clicked"/>
+                <Button x:Name="btnAbrir" Text="ABRIR VENTANA DOS" Clicked="btnAbrir_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="acorreaS2.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="REGISTRO" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Label x:Name="lblDeber1" FontSize="20"/>
+            <Label x:Name="lblExamen1" FontSize="20"/>
+            <Label x:Name="lblDeber2" FontSize="20"/>
+            <Label x:Name="lblExamen2" FontSize="20"/>
+            <Label x:Name="lblNotaParcial1" FontSize="20"/>
+            <Label x:Name="lblNotaparcial2" FontSize="20"/>
+            <Label x:Name="lblNotaFinal" FontSize="20"/>
+            <Label x:Name="lblMensaje" FontSize="20"/>
+            <!--<Entry x:Name="txtDeber1" />-->
+            <!--<Entry x:Name="txtExamen1" />
+            <Entry x:Name="txtDeber2" />
+            <Entry x:Name="txtExamen2"/>
+            <Entry x:Name="txtNotaParcial1"/>
+            <Entry x:Name="txtNotaParcial2"/>
+            <Entry x:Name="txtNotaFinal"/>
+            <Entry x:Name="txtMensaje"/>-->
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
