@@ -10,7 +10,7 @@ namespace acorreaS2
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage (new Operaciones());
+            MainPage = new NavigationPage (new Login());
 
         }
 

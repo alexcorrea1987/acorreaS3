@@ -6,7 +6,7 @@
         <ScrollView>
         <StackLayout>
                 
-                <Image Source="https://revista.uisrael.edu.ec/images/uisrael.png"/>
+                <!--<Image Source="https://revista.uisrael.edu.ec/images/uisrael.png"/>-->
                 <Label Text="INICIO" FontSize="24" HorizontalTextAlignment="Center"/>
                 <Entry x:Name="txtNombre" Placeholder="Ingresa tu Nombre"/>
                 <Button x:Name="btnSaludo" Text="SALUDO" Clicked="btnSaludo_Clicked"/>

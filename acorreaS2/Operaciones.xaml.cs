@@ -29,19 +29,17 @@ namespace acorreaS2
 
         private void btnCalcular_Clicked(object sender, EventArgs e)
         {
-            
-            double Deber1 = Convert.ToDouble(txtDeber1.Text)*0.30;
-            double Examen1 = Convert.ToDouble(txtExamen1.Text)*0.20;
-            double Deber2 = Convert.ToDouble(txtDeber2.Text)*0.30;
-            double Examen2 = Convert.ToDouble(txtExamen2.Text)*0.20;
-            double suma = Deber1 + Examen1;
-            txtNotaParcial1.Text = suma.ToString();
-            double Suma = Deber2 + Examen2;
-            txtNotaParcial2.Text = suma.ToString();
-            double sumar = Deber1 + Deber2 + Examen1 + Examen2;
-            txtNotaFinal.Text = sumar.ToString();
-            
-            
+   
+                double Deber1 = Convert.ToDouble(txtDeber1.Text) * 0.30;
+                double Examen1 = Convert.ToDouble(txtExamen1.Text) * 0.20;
+                double Deber2 = Convert.ToDouble(txtDeber2.Text) * 0.30;
+                double Examen2 = Convert.ToDouble(txtExamen2.Text) * 0.20;
+                double suma = Deber1 + Examen1;
+                txtNotaParcial1.Text = suma.ToString();
+                double Suma = Deber2 + Examen2;
+                txtNotaParcial2.Text = suma.ToString();
+                double sumar = Deber1 + Deber2 + Examen1 + Examen2;
+                txtNotaFinal.Text = sumar.ToString();            
         }
 
         private void btnLimpiar_Clicked(object sender, EventArgs e)
@@ -90,5 +88,7 @@ namespace acorreaS2
             string Mensaje = txtMensaje.Text;
             Navigation.PushAsync(new Registro(Deber1, Examen1, Deber2, Examen2, NotaParcial1, NotaParcial2, Notafinal, Mensaje ));
         }
+
+   
     }
 }
