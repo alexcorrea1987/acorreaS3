@@ -21,7 +21,7 @@ namespace acorreaS2
         {
             string usuario = txtUsuario.Text;
             string contraeña = txtContraseña.Text;
-            if (usuario == "acorrea" && contraeña == "12345")
+            if (usuario == "estudiante2023" && contraeña == "uisrael2023")
             {
                 Navigation.PushAsync(new Operaciones());
             }
