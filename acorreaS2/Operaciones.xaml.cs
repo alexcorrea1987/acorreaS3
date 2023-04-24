@@ -78,6 +78,7 @@ namespace acorreaS2
 
         private void btnAbrir_Clicked(object sender, EventArgs e)
         {
+            
             string Deber1 = txtDeber1.Text;
             string Examen1 = txtExamen1.Text;
             string Deber2 = txtDeber2.Text;

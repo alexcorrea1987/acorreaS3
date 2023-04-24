@@ -4,6 +4,7 @@
              x:Class="acorreaS2.Registro">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="USUARIO: estudiante2023" HorizontalOptions="Start"/>
             <Label Text="REGISTRO" FontSize="24" HorizontalTextAlignment="Center"/>
             <Label x:Name="lblDeber1" FontSize="20"/>
             <Label x:Name="lblExamen1" FontSize="20"/>
